@@ -293,6 +293,12 @@ img {
     border-radius: 5px
 }
 
+@media screen and (max-width: 757px){
+    #UNHRC_image {
+        margin-left: 25px;
+    }
+}
+
 .content-details {
     position: absolute;
     text-align: center;
@@ -553,7 +559,7 @@ img {
 .piyush_h1 {
     display: inline-block;
     justify-content: center;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
     color: rgb(217, 181, 119);
     background: black;
     /*padding-left: 5%;*/
@@ -588,7 +594,7 @@ img {
 .piyush_h1 {
     display: inline-block;
     justify-content: center;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
     color: white;
     background: black;
     /*padding-left: 5%;*/
@@ -678,9 +684,29 @@ img {
     .heading_2,
     .heading_3 {
         width: 99%;
-        margin-left: 1%;
+
     }
 }
+.mun_logo{
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px){
+
+    .mun_logo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .width_1,
+    .width_2,
+    .width_3 {
+        width: 0px;
+    }
+}
+
 .h1-color:hover{
     background: rgb(217, 181, 119);
     color: #30475E;
@@ -704,9 +730,52 @@ img {
 #asuthoshbhaiya{
     margin-left: 30%;
     margin-right: 0%;
+
+
 }
+
 #sanketkanuar{
     margin-left: 14%;
     margin-right: 0%;
+}
+
+#ashutosh_flip{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+@media (max-width: 767px) {
+    .flip-card-disappear {
+        display:none;
+    }
+
+    #sanketkanuar{
+        margin-left: 3.5%;
+
+    }
+
+
+
+    #asuthoshbhaiya{
+        margin-left: 4.1%;
+        justify-content: center;
+    }
+
+    .all_in_one{
+        margin-left: 8%;
+    }
+
+}
+
+.IIITG_Heading{
+    color: #2D033B;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:300px){
+    .IIITG_Heading{
+        font-size: 0em;
+    }
 }
 
